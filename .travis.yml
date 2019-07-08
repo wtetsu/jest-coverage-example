@@ -1,3 +1,6 @@
 language: node_js
 node_js:
   - "stable"
+scripts:
+  - npm test
+  - jest --coverage && cat ./coverage/lcov.info | coveralls
