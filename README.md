@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/wtetsu/jest-coverage-example.svg?branch=master)](https://travis-ci.com/wtetsu/jest-coverage-example) [![codecov](https://codecov.io/gh/wtetsu/jest-coverage-example/branch/master/graph/badge.svg)](https://codecov.io/gh/wtetsu/jest-coverage-example)
