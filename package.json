@@ -1,0 +1,30 @@
+{
+  "name": "jest-coverage-example",
+  "version": "0.0.1",
+  "repository": "https://github.com/wtetsu/jest-coverage-example.git",
+  "author": "wtetsu",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "release": "npm run release",
+    "lint": "eslint src/**/*.js",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "test-cov": "npm test -- --coverage"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
